@@ -30,46 +30,10 @@ jQuery('.count').each(function () {
     });
 });
 
-$('#person-item').owlCarousel({
-	autoplay:false,
-    autoplayTimeout:5000,
-    loop:true,
-    margin:30,
-    nav:true,
-	
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:3
-        }
-    }
-})		
-		$('#client-feedback').owlCarousel({
-	autoplay:false,
-    autoplayTimeout:5000,
-    loop:true,
-    margin:30,
-    nav:true,
-	
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
 			
-
+jQuery('.latest-news-item').matchHeight({
+    property: 'height'
+});
 
  jQuery(".search-card img").click(function(){
     $(".search-box").toggle();

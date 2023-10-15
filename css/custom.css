@@ -1,0 +1,108 @@
+.main-navigation-area .bttn-main {
+	margin-top: 22px;
+	float: right;
+	background: #005422;
+	color: #fff;
+}
+.bttn-main a {
+	color: #fff;
+	border: 1px solid #fff;
+	font-weight: 600;
+}
+
+.bttn-main a:hover{color: #fff;border:1px solid #000;background:#000}
+
+.style-default.tb-blc-wht .main-navigation-area .navigation ul#nav li a:hover, .style-default.tb-gray .main-navigation-area .navigation ul#nav li a:hover {
+	color: #005422;
+}
+.slider-text-wrapper {
+	width: 70%;
+    text-align: center;
+}
+
+
+.slider-subtitle {
+	line-height: 54px;
+	font-size: 45px;
+	color: #000;
+	text-transform: capitalize;
+}
+
+.slider-text-wrapper p {
+	font-size: 24px;
+	color: #000;
+	line-height: 37px;
+	font-weight: 600;
+}
+
+.full-width-banner .bttn-main a {
+	color: #fff;
+	border: 1px solid orange;
+	font-weight: 600;
+	background: orange;
+	border-radius: 3px;
+	padding: 21px 45px;
+	font-size: 22px;
+}
+
+
+.full-width-banner .bttn-main a:hover {
+	color: #fff;
+	border: 1px solid #000;
+	background: #000;
+	
+}
+
+.cta-need-help-area .cta-title {
+	font-size: 34px;
+	line-height: 54px;
+	text-align: center;
+    color:#fff;
+}
+
+.person-single {
+	border-bottom: 5px solid #005422;
+	
+}
+
+.our-latest-news-area .latest-news-item .latest-news-content .inner-title {
+	color: #000;
+	font-size: 32px;
+	line-height: 38px;
+	font-weight: 600;
+	
+	
+}
+.our-latest-news-area .latest-news-item:hover .latest-news-content .inner-title {
+	color: #000;
+}
+.our-latest-news-area .latest-news-item p {
+	color: #000;
+	font-size: 29px;
+	line-height: 34px;
+}
+
+.our-latest-news-area .section-heading .section-title {
+	color: #fff;
+	
+}
+
+.contact-box-area .contact-icon {
+	height: 100px;
+	width: 100px;
+	
+}
+.contact-icon .rh-img {
+	width: 80%;
+	height: auto;
+	margin: 8px auto;
+}
+.contact-form-default .section-heading p {
+	color: #005422;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.contact-form-wrapper.text-center {
+	background: #005422;
+}
