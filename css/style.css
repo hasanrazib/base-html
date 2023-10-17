@@ -1527,7 +1527,6 @@ background-color: rgba(255, 255, 255, 1);
     padding: 15px 60px;
     display: inline-block;
 	border:1px solid #fff;
-
 }
 .contact-form-default .contact-submit input:hover[type="submit"]{cursor:pointer; background: #fff;color:#000;}
 
