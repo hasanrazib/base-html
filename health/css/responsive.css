@@ -1,0 +1,369 @@
+
+
+/************IPad**************/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+
+
+
+.contact-box-area .contact-box-content h1 {
+	color: #fff;
+	font-size: 14px;
+}
+.footer-social.text-center img {
+  margin: 0 5px;
+}
+
+.section-padding-50x0 {
+  padding: 50px 0 30px;
+}
+
+
+div.navigation {
+  padding-right: 0;
+}
+.slider-fill {
+  height: 600px;
+
+}
+.slider-middel-text h1 {
+  font-size: 60px;
+}
+.slider-middel-text {
+  width: 80%;
+}
+.section-padding {
+  padding: 50px 0;
+}
+.section-title {
+  font-size: 36px;
+}
+.accommodation-content {
+  padding: 10px 5px;
+}
+.content-title {
+  font-size: 14px;
+
+}
+.overley > a {
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  width: 70%;
+}
+.accommodation-content p{font-size:12px}
+.accommodation-single-item.text-center > h3 {
+  font-size: 12px;
+  padding: 10px 5px;
+
+}
+.why-img-wrapper {
+  padding-left: 10%;
+}
+.why-img-wrapper img {
+  height: auto;
+  width: 100%;
+}
+.section-padding-100x150 {
+  padding: 50px 0px 120px;
+}
+
+
+.amenities-content {
+  padding: 15px;
+}
+
+.testimonial-single-item {
+  padding: 15px;
+}
+.person-img {
+  text-align: center;
+  width: 28%;
+}
+
+.testimonial-content {
+  width: 72%;
+}
+.testimonial-area {
+  height: 500px;
+  padding: 50px 0;
+}
+
+.map-contact-area {
+  height: 500px;
+}
+
+.g-w2 {
+  width: 33.33%;
+}
+
+
+.about-us-area .title {
+  font-size: 52px;
+  text-align: center;
+}
+
+.map-contact-us iframe {
+  height: 520px;
+}
+
+.convention-area .text-overley {
+  height: 220px;
+  padding: 15px;
+  width: 240px;
+}
+.convention-area .text-overley .title {
+ font-size: 18px;
+  margin-bottom: 10px;
+
+}
+.banner-text h1 {
+  border: 4px solid #212121;
+  font-size: 36px;
+  padding: 15px 36px;
+ 
+}
+
+.mixmenu {
+  clear: both;
+  width: 100%;
+}
+.photo-gallery-area .text-block {
+  width: 100%;
+}
+.photo-gallery-area {
+  height: 1100px;
+}
+
+.inner-room-area .text-block img {
+  margin-right: 8px;
+}
+.inner-room-area .text-block ul li {
+  margin: 15px 0;
+}
+.btn-room {
+  font-size: 15px;
+  margin-bottom:20px;
+  padding: 15px 5px;
+}
+.inner-single-facilities-item {
+  padding: 5px;
+ 
+}
+
+.food-area .owl-carousel.food-carousel .owl-nav {
+  width: 14%;
+}
+
+
+
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+div.navigation {
+  padding-right: 0;
+}
+
+
+.navigation ul#nav li a {
+  padding: 41px 8px;
+  font-size:12px;
+}
+
+.stcik div .navigation ul#nav li a {
+  font-size: 12px;
+  padding: 31px 8px;
+}
+.main-navigation-area {
+  min-height: 100px;
+}
+
+.stcik div.logo {
+  margin: 11px 0;
+  width: 80px;
+}
+.slider-fill {
+  height: 600px;
+  width: 100%;
+}
+
+.slider-middel-text h1 {
+  font-size: 40px;
+}
+.section-padding {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.section-heading {
+  margin: 0 0 30px;
+}
+
+.second-img > img ,.first-img > img {
+  height: auto;
+  width: 100%;
+}
+
+.footer-area .rh-img {
+	width: 150px;
+  margin:0 auto
+}
+
+.sity-by-area {
+	background: #08232E;
+	padding: 12px 0;
+	text-align: center;
+}
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+
+
+  .list-block ul li {
+    margin-right: 15px;
+  }
+  .social-media.fw {
+    display: none;
+  }	
+    .style-default .main-navigation-area {min-height:80px;}
+    
+    
+    
+  
+    .style-default .main-navigation-area .logo {
+      position: unset;
+      width: 73px;
+      height: auto;
+      margin: 0;
+    }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  /* slick nav */
+  .slicknav_menu {
+    display: block;
+    padding:0;
+  }
+  
+  .slicknav_nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .slicknav_btn {
+    background-color: #007027;
+    border-radius: 2px;
+    margin: 10px 10px;
+    padding: 15px;
+    position: absolute;
+    right: 15px;
+    text-decoration: none;
+    
+  }
+ 
+  .slicknav_nav {
+    background: #007027 none repeat scroll 0 0;
+    position: absolute;
+    z-index: 12;
+    width: 100%;
+    left: 0;
+    top: 73px;
+  }
+  
+  .stcik .slicknav_menu .slicknav_icon-bar {
+    background-color: #fff;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #fff;
+  }
+  .slicknav_nav .slicknav_row:hover {
+    background: #000;
+    border-radius:0;
+  
+  }
+  .slicknav_nav a:hover {
+    background: #000;
+    color: #fff;
+    border-radius:0;
+  }
+  .navigation {
+    display: none;
+  }
+  
+  /* main style */
+  
+  
+  
+  .slider-fill{height:370px;}
+  
+  .slider-text-wrapper {
+    width: 100%;
+    padding: 0 12%;
+  }
+  .slider-subtitle {
+    line-height: 18px;
+    font-size: 22px;
+    color: #000;
+    text-transform: capitalize;
+  }
+
+  .bttn-main a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .main-navigation-area .bttn-main {
+    margin-top: 22px;
+    float: none;
+  }
+  .slider-text-wrapper p {
+    font-size: 16px;
+    line-height: 28px;
+    
+  }
+  .full-width-banner .bttn-main a {
+
+    padding: 14px 19px;
+    font-size: 18px;
+  }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 579px) and (max-width: 767px) {
+
+.testimonial-area {
+  height: auto;
+}
+
+.slicknav_btn {
+  top: 3px;
+}
+.slicknav_nav {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 100%;
+  z-index:1;
+}
+
+
+
+
+}
