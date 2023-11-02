@@ -1,6 +1,7 @@
 html {
 	scroll-behavior: smooth;
   }
+  body{color:#000}
 .main-navigation-area .bttn-main {
 	margin-top: 22px;
 	float: right;
