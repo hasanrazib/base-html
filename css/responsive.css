@@ -1,6 +1,6 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	
+
   .logo-wrap {
     width: 120px;
 
@@ -161,6 +161,19 @@
   .card-item {
     padding: 20px;
     margin-bottom: 50px;
+  }
+  
+
+  .rh-center {
+    position: unset;
+    transform: none;
+  
+  }
+  .abt-wrap {
+    padding: 15px 0;
+  }
+  .exmple-img {
+    height: 330px;
   }
 }
 /* Wide Mobile Layout: 480px. */

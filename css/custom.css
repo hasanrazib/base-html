@@ -21,7 +21,8 @@ html {
 }
 .slider-text-wrapper {
 	width: 70%;
-    text-align: center;
+	text-align: center;
+	background: rgba(255,255,255,.3);
 }
 
 .logo-wrap {
@@ -44,7 +45,7 @@ html {
 	padding: 5px 10px;
 }
 .slider-subtitle span {
-	color: #D2042D;
+	color: #fff;
 	display: block;
 	font-weight: 600;
 	font-size: 54px;
@@ -58,9 +59,9 @@ html {
 
 .full-width-banner .bttn-main a {
 	color: #fff;
-	border: 1px solid blue;
+	border: 1px solid #000;
 	font-weight: 600;
-	background: blue;
+	background: #000;
 	border-radius: 3px;
 	padding: 21px 45px;
 	font-size: 22px;
@@ -93,15 +94,16 @@ html {
 }
 .click{margin-top: 30px;}
 .click .section-title {
-	color: #D2042D;
+	color: #fff;
 	font-size: 25px;
+	font-style: italic;
 }
 .person-phone {
 	color: #000;
-	font-size: 26px;
+	font-size: 20px;
 }
 .section-heading .section-title span {
-	color: blue;
+	color: #fff;
 }
 .our-latest-news-area .latest-news-item .latest-news-content .inner-title {
 	color: #000;
@@ -218,8 +220,7 @@ label {
 }
 
 .card-item:hover {
-	border: 1px solid #FFF;
-
+	border: 1px solid #ddd;
 }
 
 .list-evo a{color:blue;text-decoration: underline;}
@@ -249,3 +250,60 @@ label {
    .rh-sample-single-post .textarea h5 {font-size: 18px;line-height: 25px;margin-bottom:15px;font-weight:500}
 
    .contact-form-wraper a:hover{text-decoration: underline;}
+
+
+
+
+
+
+
+
+   h1, h2 {
+	color: blue;
+}
+   .image-area-abt{height: 400px;}
+   .rh-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	padding: 0 5%;
+}
+
+.card-rh.text-center {
+	background: #fff;
+	padding: 30px;
+	box-shadow: 2px 3px 6px #ddd;
+}
+
+.image-block {
+	border-radius: 0;
+
+}
+.card-item {
+	margin-bottom: 0px;
+
+}
+
+.our-department-area .section-heading .section-title {
+	color: #fff;
+
+}
+
+.our-department-area .card-title {
+	line-height: 32px;
+	background: blue;
+	color: #fff;
+}
+
+.our-department-area p {
+	color: #fff;
+	font-size: 28px;
+	margin: 10px 0;
+}
+
+.sity-by-area {
+	background: #000;
+	padding: 12px 0;
+}

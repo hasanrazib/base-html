@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 
-jQuery('.latest-news-item').matchHeight({
+jQuery('.exmple-img').matchHeight({
     property: 'height'
 });
 
@@ -36,7 +36,7 @@ $('a[href*="#"]')
         event.preventDefault();
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 9000, function() {
+        }, 2000, function() {
           // Callback after animation
           // Must change focus!
           var $target = $(target);
