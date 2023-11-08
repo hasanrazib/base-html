@@ -4,7 +4,9 @@ $(document).ready(function() {
 jQuery('.exmple-img').matchHeight({
     property: 'height'
 });
-
+jQuery('.card-rh').matchHeight({
+  property: 'height'
+});
 
 
 

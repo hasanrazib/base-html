@@ -16,7 +16,7 @@ body{color:#000}
 .slider-text-wrapper {
 	width: 70%;
 	text-align: center;
-	background: #44207d;
+	background: #D4A41E;
 }
 .logo-wrap {
 	width: 180px;
@@ -60,7 +60,7 @@ body{color:#000}
 
 }
 
-.slider-fill{width:100%;height:770px;position:relative;}
+.slider-fill{width:100%;height:670px;position:relative;}
 .banner-fill{width:100%;height:350px;position:relative;}
 
 .banner-fill img {
@@ -135,12 +135,6 @@ body{color:#000}
 	padding: 0 5%;
 }
 
-.card-rh.text-center {
-	background: #fff;
-	padding: 30px;
-	box-shadow: 0px 8px 15px 0px rgba(125, 147, 178, 0.24);
-}
-
 .image-block {
 	width: 240px;
 	height: 120px;
@@ -152,120 +146,10 @@ body{color:#000}
 
 }
 
-.cta-need-help-area .cta-title span {
-	color: #fff;
-	margin-bottom: 20px;
-	display: inline-block;
-}
-.cta-need-help-area .cta-title {
-	text-transform: capitalize;
-}
-
-.sity-by-area {
-	background: #000;
-	padding: 12px 0;
-}
-
-.abt-wrap {
-	overflow: hidden;
-	width: 100%;
-	height: 400px;
-	background: #FB3800;
-	color: #fff;
-	font-size: 25px;
-	line-height: 38px;
-}
  
-  /* ==========================================================================
-	Pricing Table
-   ========================================================================== */
-   .pricing-table {
-	margin-bottom: 30px;
-}
-   .pricing-table .section-heading{margin-bottom: 80px;}
-   .section-padding-150x160{padding:150px 0 160px 0}
-   .pricing-table .pricing-table .pricing-head .title {
-	  color: #fff;
-	  font-size: 36px;
-	  line-height: 54px;
-	  position:relative;
-  }
-  .pricing-head {
-	  padding: 120px 50px 50px 50px;
-  }
+ 
   
-  .pricing-table .pricing-table .pricing-head .sub-title{font-weight:200;color:#fff;}
-  .pricing-body ul li {
-	  line-height: 50px;
-	  padding-left: 50px;
-  }
-  .pricing-body ul li:nth-child(odd) {
-	  background:#fff;
-  
-  }
-  .pricing-body ul li:nth-child(even) {
-	  background:#F4F6F7;
-  
-  }
-  
-  
-  .pricing-foot a {
-	  border: 1px solid #00a4ef;
-	  display: inline-block;
-	  padding: 10px 35px;
-	  color: #00a4ef;
-	  text-transform: uppercase;
-	  font-weight: 200;
-	  margin: 10px 0 10px 50px;
-	  font-family: 'Montserrat', sans-serif;
-  }
-  .pricing-foot a:hover {
-	  border: 1px solid #00a4ef;
-	  background:#00A4EF;
-	  color:#fff;
-  }
-  
-  .pricing-table .overley {
-	height: 120px;
-	width: 120px;
-	background: #b49cdb;
-	border-radius: 50%;
-	position: absolute;
-	top: 60px;
-	left: 10%;
-	transform: translate(-10%,-120px);
-}
-.pricing-table .overley h4 {
-	color: #fff;
-	display: inline-block;
-	padding: 36px;
-	text-align: center;
-	font-size: 50px;
-	line-height: 37px;
-	font-weight: 700;
-}
-  .pricing-table .overley h4 span{display:block;color:#99a9b5;font-size:16px;line-height:25px;}
-  
-  .pricing-foot {
-	  background: #fff;
-	  padding: 20px 0px;
-  }
-  
-  .border-wrapper{border-left:1px solid #DFE5E8;border-right:1px solid #DFE5E8;margin-right:-1px;border-bottom:1px solid #DFE5E8;}
-  
-  .title-large {
-	font-family: 'Caveat', cursive;
-	font-size: 45px;
-	color: purple;
-}
 
-  
-  
-.title-medium {
-	font-family: 'Caveat', cursive;
-	font-size: 35px;
-	color: purple;
-}
 .person-phone {
 	font-size: 32px;
 	color: #FB3800;
@@ -279,3 +163,97 @@ body{color:#000}
 .list-evo a:hover {
 	text-decoration: underline;
 }
+
+
+
+/* ==========================================================================
+	landing 06 healthratez 02
+   ========================================================================== */
+   .cta-need-help-area .cta-title span {
+		color: #FFD801;
+		margin-bottom: 20px;
+		display: inline-block;
+	}
+	.cta-need-help-area .cta-title {
+		text-transform: capitalize;
+	}
+	.cta-need-help-area p {
+		color: #fff;
+		font-size: 32px;
+		font-family: 'Caveat', cursive;
+		line-height: 40px;
+	}
+ 
+ 
+ 
+ 
+   .section-list-area .section-heading {
+	margin-bottom: 80px;
+}  
+   .section-list-area .section-heading .section-title {
+	font-size: 36px;
+	line-height: 44px;
+	margin-bottom: 40px;
+	color: #000;
+	text-transform: uppercase;
+	background: #FFD801;
+	padding: 14px;
+	border-radius: 35px;
+	font-family: 'Caveat', cursive;
+}
+.section-list-area .section-heading p {
+	color: #000;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
+.list-item-panel {
+	box-shadow: 0px 8px 18px 0px rgba(125, 147, 178, 0.24);
+	padding: 15px 30px;
+	background: #fff;
+	border-radius: 0px 30px 0px 30px;
+	position: relative;
+	margin-bottom: 40px;
+	border-bottom: 5px solid #FFD801;
+}
+.overley-sl {
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	width: 50px;
+	height: 50px;
+	background: #FFD801;
+	text-align: center;
+	border-radius: 50%;
+}
+.overley-sl h4 {
+	font-weight: 700;
+	padding: 7px;
+	color: #fff;
+}
+.card-rh.text-center {
+	background: #fff;
+	padding: 30px;
+	box-shadow: 0px 8px 15px 0px rgba(125, 147, 178, 0.24);
+	margin-bottom: 30px;
+}
+.rh-content p {
+	font-size: 16px;
+	color: #000;
+}
+.title-large {
+	font-size: 24px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.title-medium {
+	font-family: 'Caveat', cursive;
+	font-size: 35px;
+	color: #000;
+}
+
+
+
+.sity-by-area {
+	background: #000;
+	padding: 12px 0;
+} 
