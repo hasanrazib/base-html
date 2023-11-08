@@ -1,30 +1,23 @@
 html {
 	scroll-behavior: smooth;
   }
-  body{color:#000}
-.main-navigation-area .bttn-main {
-	margin-top: 22px;
-	float: right;
-	background: #005422;
-	color: #fff;
-}
+body{color:#000}
+
 .bttn-main a {
 	color: #fff;
-	border: 1px solid #fff;
+	border: 1px solid #FB3800;
 	font-weight: 600;
+	background: #FB3800;
+	padding: 15px 80px;
 }
 
 .bttn-main a:hover{color: #fff;border:1px solid #000;background:#000}
 
-.style-default.tb-blc-wht .main-navigation-area .navigation ul#nav li a:hover, .style-default.tb-gray .main-navigation-area .navigation ul#nav li a:hover {
-	color: #005422;
-}
 .slider-text-wrapper {
 	width: 70%;
 	text-align: center;
-	background: rgba(255,255,255,.3);
+	background: #44207d;
 }
-
 .logo-wrap {
 	width: 180px;
 	margin: 0 auto;
@@ -32,23 +25,18 @@ html {
 .logo-wrap img{width:100%;height: auto;}
 .slider-subtitle {
 	line-height: 70px;
-	font-size: 36px;
-	color: #000;
+	font-size: 64px;
+	color: #FB3800;
 	text-transform: capitalize;
+	font-family: 'Caveat', cursive;
 }
-.style-one {
-	font-style: italic;
-	display: inline !important;
-	color: blue !important;
-	letter-spacing: 4px;
-	background-color: #fff;
-	padding: 5px 10px;
-}
+
 .slider-subtitle span {
 	color: #fff;
 	display: block;
 	font-weight: 600;
 	font-size: 54px;
+	font-family: 'Montserrat', sans-serif;
 }
 .slider-text-wrapper p {
 	font-size: 24px;
@@ -57,104 +45,7 @@ html {
 	font-weight: 600;
 }
 
-.full-width-banner .bttn-main a {
-	color: #fff;
-	border: 1px solid #000;
-	font-weight: 600;
-	background: #000;
-	border-radius: 3px;
-	padding: 21px 45px;
-	font-size: 22px;
-}
 
-
-.full-width-banner .bttn-main a:hover {
-	color: #fff;
-	border: 1px solid #000;
-	background: #000;
-	
-}
-.cta-need-help-area {
-	padding: 90px 0;
-}
-.cta-need-help-area .cta-title {
-	font-size: 34px;
-	line-height: 54px;
-	text-align: center;
-	color: #000;
-}
-.content-wrap-cta {
-	background: #fff;
-	padding: 10px;
-}
-.cta-need-help-area p {
-	color: #000;
-	margin: 0;
-	font-size: 16px;
-}
-.click{margin-top: 30px;}
-.click .section-title {
-	color: #fff;
-	font-size: 25px;
-	font-style: italic;
-}
-.person-phone {
-	color: #000;
-	font-size: 20px;
-}
-.section-heading .section-title span {
-	color: #fff;
-}
-.our-latest-news-area .latest-news-item .latest-news-content .inner-title {
-	color: #000;
-	font-size: 32px;
-	line-height: 38px;
-	font-weight: 600;
-	
-	
-}
-.our-latest-news-area .latest-news-item:hover .latest-news-content .inner-title {
-	color: #000;
-}
-.our-latest-news-area .latest-news-item p {
-	color: #000;
-	font-size: 29px;
-	line-height: 34px;
-}
-
-.our-latest-news-area .section-heading .section-title {
-	color: #fff;
-	
-}
-
-.contact-box-area .contact-icon {
-	height: 100px;
-	width: 100px;
-	
-}
-.contact-icon .rh-img {
-	width: 80%;
-	height: auto;
-	margin: 8px auto;
-}
-.contact-form-default .section-heading p {
-	color: #005422;
-	font-size: 20px;
-	line-height: 28px;
-}
-
-.contact-form-default .contact-textarea textarea {
-	height: 40px;
-}
-.form-check-label {
-	color: #000;
-}
-#check8 {
-	float: left;
-	position: relative;
-	top: 20px;
-	left: -20px;
-}
 .footer-menu {
 	margin: 70px 0;
 }
@@ -186,32 +77,7 @@ html {
 .section-heading {
 	margin-bottom: 40px;
 }
-input {
-    background-color: transparent;
-    border: 0px solid;
-}
-textarea:focus, input:focus{
-    outline: none;
-}
-.contact-inner input[type="text"], .contact-inner input[type="date"], .contact-inner input[type="tel"] {
-	color: #000;
-}
 
-label {
-	color: #000;
-	margin-right: 16px;
-}
-
-.contact-form-default .contact-submit input[type="submit"] {
-	background: blue;
-	border: medium none;
-	color: #fff;
-	font-weight: 400;
-	margin: 15px 0;
-	padding: 15px 60px;
-	display: inline-block;
-	border: 1px solid blue;
-}
 
 .card-title {
 	
@@ -223,7 +89,7 @@ label {
 	border: 1px solid #ddd;
 }
 
-.list-evo a{color:blue;text-decoration: underline;}
+
 /* ==========================================================================
     Samples Page
    ========================================================================== */
@@ -241,9 +107,9 @@ label {
    .rh-sample-single-post .textarea h1, .textarea h2, .textarea h3,.textarea h4,.textarea h5,.textarea h6 {color:#161922;font-weight: 400;}
    .rh-sample-single-post .textarea h1 {font-size: 42px;line-height: 50px;margin-bottom:35px}
    .rh-sample-single-post .textarea h2 {
-	font-size: 32px;
-	line-height: 38px;
-	margin-bottom: 20px;
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 10px;
 }
    .rh-sample-single-post .textarea h3 {font-size: 28px;line-height: 29px;margin-bottom:15px;font-weight:300;}
    .rh-sample-single-post .textarea h4 {font-size: 24px;line-height: 25px;margin-bottom:15px;font-weight:500}
@@ -252,16 +118,14 @@ label {
    .contact-form-wraper a:hover{text-decoration: underline;}
 
 
-
-
-
-
+   .slider-text-wrapper .bttn-main {
+	display: none;
+	}
 
 
    h1, h2 {
 	color: blue;
 }
-   .image-area-abt{height: 400px;}
    .rh-center {
 	position: absolute;
 	top: 50%;
@@ -274,36 +138,144 @@ label {
 .card-rh.text-center {
 	background: #fff;
 	padding: 30px;
-	box-shadow: 2px 3px 6px #ddd;
+	box-shadow: 0px 8px 15px 0px rgba(125, 147, 178, 0.24);
 }
 
 .image-block {
+	width: 240px;
+	height: 120px;
 	border-radius: 0;
-
+	margin-bottom: 0;
 }
 .card-item {
 	margin-bottom: 0px;
 
 }
 
-.our-department-area .section-heading .section-title {
+.cta-need-help-area .cta-title span {
 	color: #fff;
-
+	margin-bottom: 20px;
+	display: inline-block;
 }
-
-.our-department-area .card-title {
-	line-height: 32px;
-	background: blue;
-	color: #fff;
-}
-
-.our-department-area p {
-	color: #fff;
-	font-size: 28px;
-	margin: 10px 0;
+.cta-need-help-area .cta-title {
+	text-transform: capitalize;
 }
 
 .sity-by-area {
 	background: #000;
 	padding: 12px 0;
+}
+
+.abt-wrap {
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	background: #FB3800;
+	color: #fff;
+	font-size: 25px;
+	line-height: 38px;
+}
+ 
+  /* ==========================================================================
+	Pricing Table
+   ========================================================================== */
+   .pricing-table {
+	margin-bottom: 30px;
+}
+   .pricing-table .section-heading{margin-bottom: 80px;}
+   .section-padding-150x160{padding:150px 0 160px 0}
+   .pricing-table .pricing-table .pricing-head .title {
+	  color: #fff;
+	  font-size: 36px;
+	  line-height: 54px;
+	  position:relative;
+  }
+  .pricing-head {
+	  padding: 120px 50px 50px 50px;
+  }
+  
+  .pricing-table .pricing-table .pricing-head .sub-title{font-weight:200;color:#fff;}
+  .pricing-body ul li {
+	  line-height: 50px;
+	  padding-left: 50px;
+  }
+  .pricing-body ul li:nth-child(odd) {
+	  background:#fff;
+  
+  }
+  .pricing-body ul li:nth-child(even) {
+	  background:#F4F6F7;
+  
+  }
+  
+  
+  .pricing-foot a {
+	  border: 1px solid #00a4ef;
+	  display: inline-block;
+	  padding: 10px 35px;
+	  color: #00a4ef;
+	  text-transform: uppercase;
+	  font-weight: 200;
+	  margin: 10px 0 10px 50px;
+	  font-family: 'Montserrat', sans-serif;
+  }
+  .pricing-foot a:hover {
+	  border: 1px solid #00a4ef;
+	  background:#00A4EF;
+	  color:#fff;
+  }
+  
+  .pricing-table .overley {
+	height: 120px;
+	width: 120px;
+	background: #b49cdb;
+	border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 10%;
+	transform: translate(-10%,-120px);
+}
+.pricing-table .overley h4 {
+	color: #fff;
+	display: inline-block;
+	padding: 36px;
+	text-align: center;
+	font-size: 50px;
+	line-height: 37px;
+	font-weight: 700;
+}
+  .pricing-table .overley h4 span{display:block;color:#99a9b5;font-size:16px;line-height:25px;}
+  
+  .pricing-foot {
+	  background: #fff;
+	  padding: 20px 0px;
+  }
+  
+  .border-wrapper{border-left:1px solid #DFE5E8;border-right:1px solid #DFE5E8;margin-right:-1px;border-bottom:1px solid #DFE5E8;}
+  
+  .title-large {
+	font-family: 'Caveat', cursive;
+	font-size: 45px;
+	color: purple;
+}
+
+  
+  
+.title-medium {
+	font-family: 'Caveat', cursive;
+	font-size: 35px;
+	color: purple;
+}
+.person-phone {
+	font-size: 32px;
+	color: #FB3800;
+}
+
+.list-evo a {
+	color:blue;
+}
+
+
+.list-evo a:hover {
+	text-decoration: underline;
 }

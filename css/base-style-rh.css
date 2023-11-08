@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
@@ -12,7 +10,7 @@ body{
 	line-height:25px;
 }
 ul,ol{list-style:none;margin:0;padding:0;}
-h1,h2{font-weight:700;color:#005422;font-family: 'Lato', sans-serif;}
+h1,h2{font-weight:700;color:#363895;font-family: 'Montserrat', sans-serif;}
 h3,h4{font-family: 'Source Sans Pro', sans-serif;font-weight:300}
 h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
 a{text-decoration:none;color:#5c5c5c;}
@@ -71,12 +69,9 @@ a:hover{text-decoration:none;-webkit-transition: .5s ease;transition:.5s ease;co
 }
 .bttn-main a:hover{color: #fff;border:1px solid #00A4EF;background:#00A4EF}
 .rh-bttn-s a{font-size:12px;background:#000;color:#fff;display:inline-block;padding:5px 15px;margin:10px 0}
-.rh-bttn-s a:hover{
-
-}
 .rh-bttn-m a{font-size:16px;background:#000;color:#fff;display:inline-block;padding:8px 24px;margin:15px 0}
 .rh-bttn-l a{font-size:22px;background:#000;color:#fff;display:inline-block;padding:10px 40px;margin:20px 0}
-.rh-bttn-l a:hover{}
+
 
 
 
@@ -145,11 +140,11 @@ a:hover{text-decoration:none;-webkit-transition: .5s ease;transition:.5s ease;co
    Header Area || Header Default Style
    ========================================================================== */
 
-
+.header-main-area{}
 
 /* Header Top bar */
 .header-top-bar {
-	background: #005422;
+	background: #00A4EF;
 	border-bottom: 1px solid #E0DFDC;
 	height: 50px;
 }
@@ -167,10 +162,10 @@ a:hover{text-decoration:none;-webkit-transition: .5s ease;transition:.5s ease;co
 	text-transform: capitalize;
 }
 .tb-bttn ul li {
-	margin-right: 20px;
+	margin-right: 0px;
 }
 
-.tb-bttn li:last-child a {
+.tb-bttn li a {
 	background: #068DC8;
 	color: #fff;
 	display: block;
@@ -216,7 +211,7 @@ a:hover{text-decoration:none;-webkit-transition: .5s ease;transition:.5s ease;co
 	-o-transform: scale(1.3,1.3);
   transform: scale(1.3,1.3);
 
-  }
+  )}
 
 
 
@@ -259,9 +254,9 @@ a:hover{text-decoration:none;-webkit-transition: .5s ease;transition:.5s ease;co
 	}
 
 .style-default .main-navigation-area .logo {
-		margin: 4px 0;
+	padding: 0px 0;
+	margin: 9px 0;
 }
-
 .style-default .main-navigation-area .navigation {
   float: right;
 }
@@ -400,8 +395,16 @@ a:hover{text-decoration:none;-webkit-transition: .5s ease;transition:.5s ease;co
 
 
 
+.style-default .main-navigation-area.stcik {
+  background: #fff none repeat scroll 0 0;
+  color: #fff;
+  height: 80px;
+  min-height: 0;
 
-
+}
+.style-default .main-navigation-area.stcik .navigation ul#nav li a {
+	line-height: 32px;
+}
 
 .style-default .main-navigation-area.stcik .search-card .search-box {
 	bottom: -51px;
@@ -571,10 +574,6 @@ display:none;
 
 
 
-.logo img {
-	width: 100%;
-	max-width: 90px;
-}
 
 
 /* ==========================================================================
@@ -693,9 +692,9 @@ display:none;
 
 
 .section-heading{margin-bottom:120px;}
-.section-heading .section-title{font-size:36px;line-height:44px;margin-bottom:40px;color:#000;text-transform:uppercase;}
-.section-heading .section-title span{color:#005422}
-.section-heading p{color:#005422}
+.section-heading .section-title{font-size:36px;line-height:44px;margin-bottom:40px;color:#3c3950;text-transform:uppercase;}
+.section-heading .section-title span{color:#00A4EF}
+.section-heading p{color:#5f727f}
 
 
 /* ==========================================================================
@@ -820,6 +819,208 @@ display:none;
 }
  
  
+  /* ==========================================================================
+	Home Animator Area
+   ========================================================================== */
+ 
+.animator-countdown {
+	height: 216px;
+	position:relative;
+}
+.animator-total-wrapper {
+	margin-left: -3.33%;
+	position: absolute;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.animator-single-item {
+	float: left;
+	margin-left: 3.33%;
+	width: 21.666%;
+	position: relative;
+}
+.animator-single-item::before {
+	background: #395662 none repeat scroll 0 0;
+	content: "";
+	height: 50px;
+	left: 30%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-30%, -50%);
+	width: 0px;
+}
+
+.count {
+	color: #00a4ef;
+	font-size: 36px;
+	font-weight: 700;
+	overflow: hidden;
+	line-height: 30px;
+	margin-right: 25px;
+}
+
+.icon {
+  color: #fff;
+  font-size: 55px;
+}
+.count-text {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	font-size:14px;
+	text-transform:uppercase;
+}
+ 
+ 
+ 
+ 
+ 
+   /* ==========================================================================
+	Our Services
+   ========================================================================== */
+ 
+.home-services-area .rh-box-wraper {
+	width: 100%;
+	height: 578px;
+}
+ 
+ .home-services-area .card-item {
+	padding: 60px;
+	position: relative;
+	background: #fff;
+	cursor: pointer;
+	transition: .3s ease-in;
+	margin-bottom:0;
+	border:none;}
+ .home-services-area .card-item .rh-nth{
+	 border-bottom: 5px solid rgb(223, 229, 232);
+	border-right: 1px solid rgb(233,229,232);
+	border-top: 0px solid rgb(233,229,232);
+	border-left: 0px solid rgb(233,229,232);
+ }
+
+ .home-services-area .rh-nth:nth-child(1){
+	 border-bottom: 1px solid rgb(223, 229, 232);
+	 border-right: 1px solid rgb(223, 229, 232);
+  }
+ .home-services-area .rh-nth:nth-child(2){
+	 	 border-bottom: 1px solid rgb(223, 229, 232);
+  }
+  .home-services-area .rh-nth:nth-child(3){
+	 border-right: 1px solid rgb(223, 229, 232);
+  }
+  .home-services-area .rh-nth:nth-child(4){
+	 
+  }
+   
+   /* ==========================================================================
+	Home History
+   ========================================================================== */
+ 
+ .section-padding-150x130{padding:150px 0 130px 0}
+ .history-area .section-heading .section-title {
+	color: #fff;
+}
+ .history-area .section-heading p {
+	color: #aac1d1;
+}
+ 
+ 
+ .timeline-layout{max-width:1140px;position:relative;margin:0 auto;}
+ 
+.timeline-layout::after {
+	content: '';
+	position: absolute;
+	width: 2px;
+	background-color: white;
+	top: 50px;
+	bottom: 80px;
+	left: 50%;
+	margin-left: -1px;
+}
+
+.timeline-card{
+  position: relative;
+  width: 50%;
+
+  }
+
+
+
+.timeline-content {
+	padding: 30px;
+	background-color: #042938;
+	position: relative;
+	border-radius: 50px;
+}
+
+.timeline-content h2 {
+	font-size: 24px;
+	line-height: 38px;
+	margin-bottom: 30px;
+	text-transform:uppercase;
+}
+.timeline-content.mr-150 {
+	position: relative;
+	text-align: right;
+}
+.timeline-content.mr-150::before {
+	content: "";
+	background: url('../img/curve-history-color.png');
+	height: 110px;
+	width: 50px;
+	top: 50%;
+	right: -47px;
+	position: absolute;
+	transform: translate(0px,-50%) ;
+}
+.timeline-content.ml-150{position:relative;}
+.timeline-content.ml-150::after {
+	content: "";
+	background: url('../img/curve-history-color.png');
+	height: 110px;
+	width: 50px;
+	top: 50%;
+	left: -47px;
+	position: absolute;
+	transform: translate(0px,-50%) rotateY(180deg);
+
+}
+.timeline-img {
+	height: 160px;
+	width: 160px;
+	position: absolute;
+	z-index: 2;
+	right: -80px;
+	top: 40px;
+	border-radius: 50%;
+}
+
+.tl-left {
+  left: 0;
+  margin-right:40px;
+}
+
+
+.tl-right {
+  left: 50%;
+}
+
+
+
+.tl-right::after {
+  left: -80px;
+}
+.tl-right .timeline-img {
+  left: -80px;
+}
+
+ .mr-150{margin-right:150px}
+ .ml-150{margin-left:150px}
+
+
  
  /* ==========================================================================
 	Qualified Doctor
@@ -891,6 +1092,141 @@ display:none;
      display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
 }
  
+ 
+ 
+  /* ==========================================================================
+	Pricing Table
+   ========================================================================== */
+.section-padding-150x160{padding:150px 0 160px 0}
+ .pricing-table .pricing-table .pricing-head .title {
+	color: #fff;
+	font-size: 36px;
+	line-height: 54px;
+	position:relative;
+}
+.pricing-head {
+	padding: 120px 50px 50px 50px;
+}
+
+.pricing-table .pricing-table .pricing-head .sub-title{font-weight:200;color:#fff;}
+.pricing-body ul li {
+	line-height: 50px;
+	padding-left: 50px;
+}
+.pricing-body ul li:nth-child(odd) {
+	background:#fff;
+
+}
+.pricing-body ul li:nth-child(even) {
+	background:#F4F6F7;
+
+}
+
+
+.pricing-foot a {
+	border: 1px solid #00a4ef;
+	display: inline-block;
+	padding: 10px 35px;
+	color: #00a4ef;
+	text-transform: uppercase;
+	font-weight: 200;
+	margin: 10px 0 10px 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+.pricing-foot a:hover {
+	border: 1px solid #00a4ef;
+	background:#00A4EF;
+	color:#fff;
+}
+
+.pricing-table .overley {
+	height: 120px;
+	width: 120px;
+	background: #393D50;
+	border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 10%;
+	transform: translate(-10%,-120px);
+}
+.pricing-table .overley h4 {
+	color: #2ab6f6;
+	display: inline-block;
+	padding: 30px;
+	text-align: center;
+	font-size: 32px;
+	line-height: 37px;
+}
+.pricing-table .overley h4 span{display:block;color:#99a9b5;font-size:16px;line-height:25px;}
+
+.pricing-foot {
+	background: #fff;
+	padding: 20px 0px;
+}
+
+.border-wrapper{border-left:1px solid #DFE5E8;border-right:1px solid #DFE5E8;margin-right:-1px;border-bottom:1px solid #DFE5E8;}
+
+
+
+
+
+
+ /* ==========================================================================
+	Clients Feedback
+   ========================================================================== */
+.clients-feedback-area{}
+.clients-feedback-area .rh-column-wrapper{height:652px;width:100%;}
+.rh-column.w-50{height:100%;float:left;position:relative;}
+.clients-feedback-area .person-single-c {
+	padding: 173px 0;
+	border: none;
+}
+.clients-feedback-area .person-content .person-name{color:#fff;font-size:16px;line-height:25px;margin-bottom:0;font-family: 'Montserrat', sans-serif;font-weight:700;text-transform:uppercase;}
+
+.clients-feedback-area .person-content .person-designation {
+	font-size: 14px;
+	color: #fff;
+	line-height: 23px;
+	margin-bottom: 15px;
+}
+.clients-feedback-area .person-content p {
+	font-size: 24px;
+	color: #fff;
+	font-weight:300
+}
+
+.clients-feedback-area .client-carousel-owl .owl-dots {
+	display: none;
+}
+
+.clients-feedback-area .client-carousel-owl .owl-nav .owl-prev {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+ background: rgba(84, 194, 244, 1);
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px;
+  width: 40px;
+}
+
+.clients-feedback-area .client-carousel-owl .owl-nav button.owl-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+		  background: rgba(84, 194, 244, 1);
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px;
+  width: 40px;
+}
+
 
 
  
@@ -1043,6 +1379,93 @@ hover
 .sity-by-area .site-by-contain img{margin-right:5px;}
 
 
+
+
+/* ==========================================================================
+   banner
+   ========================================================================== */
+.page-banner {
+  height: 370px;
+  position: relative;
+  width: 100%;
+
+}
+.banner-text {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+  max-width:100%;
+}
+.banner-text h1 {
+  color: #212121;
+  display: inline-block;
+  font-size: 80px;
+  line-height:90px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.banner-text p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* Horizontal line */
+.collapsible-link::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+/* Vertical line */
+.collapsible-link::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+.collapsible-link[aria-expanded='true']::after {
+  transform: rotate(90deg) translateX(-1px);
+}
+
+.collapsible-link[aria-expanded='true']::before {
+  transform: rotate(180deg);
+}
+
+
+
+ /* ==========================================================================
+	Team Page template 
+   ========================================================================== */
+.team-style--ii .person-single {overflow:hidden;padding:20px 15px;margin-bottom:60px;}
+.team-style--ii .image-block-wrapper{float:left;width:30%}
+.team-style--ii .image-block{margin-bottom:0;height:80px;width:80px;}
+.team-style--ii .person-content{float:right;width:70%;}
+.team-style--ii .person-content .person-name {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.team-style--ii .person-single:hover .image-block::before{
+	width: 80px;
+	height: 80px;
+	
+}
   /* ==========================================================================
 	Contact Us Page
    ========================================================================== */
@@ -1099,14 +1522,15 @@ background-color: rgba(255, 255, 255, 1);
 .contact-form-default .contact-submit input[type="submit"] {
     background:transparent;
     border: medium none;
-    color: #fff;
+    color: #00A4EF;
     font-weight: 400;
     margin: 15px 0;
     padding: 15px 60px;
     display: inline-block;
-	border:1px solid #fff;
+	border:1px solid #00A4EF;
+
 }
-.contact-form-default .contact-submit input:hover[type="submit"]{cursor:pointer; background: #fff;color:#000;}
+.contact-form-default .contact-submit input:hover[type="submit"]{cursor:pointer; background: #00A4EF;color:#fff;}
 
 
 
@@ -1123,6 +1547,7 @@ background-color: rgba(255, 255, 255, 1);
  color: #5F727F;
 }
  
+
 
 
 
